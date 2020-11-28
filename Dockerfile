@@ -1,4 +1,4 @@
-FROM php:7.3-fpm-alpine
+FROM php:7.4-fpm-alpine
 
 RUN apk add --no-cache postgresql-dev wget autoconf g++ libc-dev make pcre-dev \
     && mkdir -p /app/src \
